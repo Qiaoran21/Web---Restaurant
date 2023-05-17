@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nobu Japanese Cuisine</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="http://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <header>
+      <input id="nav-toggle" type="checkbox" />
+      <label for="nav-toggle" class="nav-toggle__icon">
+        <span></span>
+      </label>
+
+      <nav class="menu">
+        <a class="menu__item" href="#">Home</a>
+        <div class="sub-menu">
+          <a class="menu__item" href="#">About</a>
+          <div id="menu__about-menu" class="sub-menu__panel">
+            <a class="menu__item" href="#">Our Story</a>
+            <a class="menu__item" href="#">Career</a>
+          </div>
+        </div>
+        <div class="sub-menu">
+          <a class="menu__item" href="#">Menu</a>
+          <div id="menu__menu" class="sub-menu__panel">
+            <a class="menu__item" href="#">Dine-In</a>
+            <a class="menu__item" href="#">Take-Out</a>
+          </div>
+        </div>
+        <a class="menu__item" href="#">Order</a>
+        <a class="menu__item" href="#">Contact</a>
+      </nav>
+      
+      <div class="search">
+        <input class="search__input" type="search" placeholder="sushi" />
+        <button class="search__button">SEARCH</button>
+      </div>
+    </header>
+
+    <section>
+      <h1 id="title">Nobu</h1>
+      <h2>a taste of Japan</h2>
+    </section>
+
+    <div class="slider">
+      <img class="slider__image slider__image--active" src="pics/main page pic-2.jpg" />
+      <img class="slider__image" src="pics/1-2.jpg" />
+      <img class="slider__image" src="pics/2-2.jpg" />
+      <img class="slider__image" src="pics/4-2.jpg" />
+      <img class="slider__image" src="pics/main page pic-2.jpg" />
+    </div>
+
+    <section class="quote">
+      <blockquote>
+        <p>"Best authentic Japanese food in the city!"</p>
+        <cite>- Freepress</cite>
+      </blockquote>
+    </section>
+    <footer>
+      <div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contacts</a></li>
+        </ul>
+        <p>© All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
